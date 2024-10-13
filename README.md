@@ -31,27 +31,32 @@ To run this project locally, follow these steps:
 git clone https://github.com/AyaNour333/E-commerce_Web_Application.git
 cd E-commerce_Web_Application
 
+```
 ### 2. Install dependencies
 
 ```bash
 npm install
 
+```
 ### 3. Start the development server
 
 ```bash
 npm run dev
 
+```
 ### 4. Open the project in Visual Studio Code
 
 ```bash
 code .
 
+```
 ### 5. Running the Backend Locally
 To run the backend locally, follow these additional steps:
 
 - Take the **ecommerce-backend** folder (which contains the API) out of the main project folder to a separate location.
 - Decompress the folder if needed.
 - Inside the backend folder, run:
+
 
 ```bash
 npm install
