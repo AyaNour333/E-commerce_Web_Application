@@ -5,6 +5,7 @@ This is a full-featured e-commerce web application built with React, designed fo
 ```markdown
 ![E-commerce Application Screenshot](./src/assets/ecom.jpeg)
 
+```
 ## Features
 
 - **Add to Favorites**: Users can save products to their favorites list.
