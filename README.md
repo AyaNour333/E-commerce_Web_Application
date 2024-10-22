@@ -2,6 +2,9 @@
 
 This is a full-featured e-commerce web application built with React, designed for practice and learning. The project includes various functionalities and optimizations for enhanced user experience and performance.
 
+```markdown
+![E-commerce Application Screenshot](./src/assets/ecom.jpeg)
+
 ## Features
 
 - **Add to Favorites**: Users can save products to their favorites list.
@@ -15,10 +18,11 @@ This is a full-featured e-commerce web application built with React, designed fo
 ## Technologies Used
 
 - **React**
+- **Redux**
+- **TypeScript**
+- **Bootstrap**
 - **React Hook Form** with **Zod** for form validation
-- **Authentication & Authorization**
 - **API Integration**
-- **Error and Loading Handling**
 - **Design Patterns for Performance**
 
 ## Setup Instructions
