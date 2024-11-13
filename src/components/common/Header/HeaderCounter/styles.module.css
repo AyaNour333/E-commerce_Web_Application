@@ -1,0 +1,74 @@
+.container{
+    align-self: flex-end;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.container h3 {
+    font-size: 15px;
+    margin-left: 4px;
+    margin-bottom: 0;
+}
+.iconWrapper{
+    position: relative;
+}
+.totalNum{
+    background-color: #0dcaf0;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: -11px;
+    right: -5px;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid;
+}
+.pumpAnimate{
+    animation: pumping 300ms ease-out;
+    -webkit-animation: pumping 300ms ease-out;
+}
+
+
+@keyframes pumping {
+    0%{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+}
+    20%{
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+}
+    30%{
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+}
+    50%{
+        transform: scale(1.7);
+        -webkit-transform: scale(1.7);
+        -moz-transform: scale(1.7);
+        -ms-transform: scale(1.7);
+        -o-transform: scale(1.7);
+}
+    100%{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+}

@@ -1,0 +1,8 @@
+.headerLeftBar{
+    display: flex;
+}
+.headerLeftBar > div:first-of-type{
+    border-right: 1px solid black;
+    margin-right: 10px;
+    padding-right: 10px;
+}

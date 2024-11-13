@@ -1,0 +1,22 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #fff;
+}
+.headerLogo{
+    margin: 0;
+    font-size: 2.5rem;
+    color: inherit;
+    text-decoration: inherit;
+}
+h1.headerLogo{
+    margin: 0;
+    display: flex;
+}
+h1.headerLogo span{
+    display: block;
+    margin-right: 5px;
+}
+
